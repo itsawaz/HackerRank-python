@@ -1,0 +1,18 @@
+# cook your dish here
+t=int(input())
+for i in range(0,t):
+    ab=input()
+    li=[]
+    for i in ab:
+        if i==" ":
+            continue
+        else:
+            li.append(int(i))
+    a=int(li[0])
+    b=int(li[1])
+    per=(b/a)*100
+    if per>=50:
+        print("YES")
+    else:
+        print("NO")
+       
